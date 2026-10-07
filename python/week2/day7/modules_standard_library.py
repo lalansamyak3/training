@@ -1,21 +1,21 @@
 from dataclasses import fields
 
-import python.week2.day7.day7 as day7
+import python.week2.day7.calculator as calculator
 
-print(day7.add(2, 3))
-print(day7.sub(12, 34))
+print(calculator.add(2, 3))
+print(calculator.sub(12, 34))
 
-import python.week2.day7.day7 as d
+import python.week2.day7.calculator as d
 
 print(d.add(12, 22))
 print(d.sub(23, 33))
 # to import the specific only
-from python.week2.day7.day7 import add
+from python.week2.day7.calculator import add
 
 print(add(12, 22))
 
 # to import everything which is there in the day7 module
-from python.week2.day7.day7 import *
+from python.week2.day7.calculator import *
 
 print(add(22, 33))
 print(add(23, 32))
